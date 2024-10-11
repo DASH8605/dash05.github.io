@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Wings' Book Club - Home</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class=bg-body>
+  <header class="container-fluid">
+    <div class="row header">
+      <div class="col-xs-12">
+        <div class="page-header container-fluid bg-header">
+          <h1>Wings' Book Club</h1>
+          <h3>Reading Everywhere</h3>
+        </div>
+        <nav class="navbar bookclub-nav bg-nav">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-list" aria-hidden="true"></i>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <a class="youarehere" href="index.html">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    Home</a>
+                </li>
+                <li>
+                  <a href="rec-series.html">Recommendations: Series</a>
+                </li>
+                <li>
+                  <a href="rec-standalones.html">Recommendations: Stand-Alones</a>
+                </li>
+                <li>
+                  <a href="my-stories.html">My Stories</a>
+                </li>
+                <li>
+                  <a href="friends-stories.html">Friends' Stories</a>
+                </li>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="row row-table main">
+    <aside class="left col-md-4 col-lg-2 bg-left table-cell">
+      <h2>About me</h2>
+      <p>My name is Jo but everyone calls me Wings.</p>
+      <p>I'm a self-confessed chocoholic and bookaholic, but if I had to choose between the two, chocolate would be the first
+        to go.</p>
+      <p>Seriously, that's how much I love reading!</p>
+    </aside>
+    <article class="middle col-md-8 bg-middle table-cell">
+      <h2>Hello and Welcome to Wings' Book Club!</h2>
+      <p>Allow me to introduce myself. I'm Wings. I'm from Belgium. I'm an enthusiastic reader and an occasional writer. If
+        I'm not doing either of those, I can usually be found knitting my latest project. Pretty soon, I may be able to add
+        software creation to that list!</p>
+        <img src="assets/images/wingsreadinghufflepuff.jpg" alt="Wings reading in the library" class="intro">
+      
+      <p>Reading and creative activities are truly an escape for me when life gets too much, and as a person diagnosed with
+        Autism Spectrum Disorder, I am rather prone to overload when my senses are working overtime.</p>
+      <p>My favourite escape is in fantasy books, first and foremost Harry Potter. On Pottermore I was sorted into Hufflepuff.</p>
+      <p>"Chicklit" fiction can also be great for tuning out and getting lost in a story. They're mostly what I choose for easy
+        reads on sunny afternoons when I can lounge in the garden.</p>
+      <p>And then there are times when you really want some fresh new story, something you haven't read yet, something short
+        (or not quite so short) for a change. Those are the times for discovering unpublished stories, fan fiction and similar.
+        I've got a few of those for your delectation on this site too - just check out My Stories and Friends' Stories if
+        you're up for it.</p>
+      <p>So make yourself comfortable, grab yourself a cuppa of your prefered beverage and happy reading!</p>
+    </article>
+    <aside class="right col-lg-2 bg-right table-cell">
+      <h2>News</h2>
+      <p>Here you will find quick links to new reviews and new stories. As this entire website is currently new, there's nothing
+        to show here yet, but check back soon!</p>
+    </aside>
+  </main>
+  <footer class="container-fluid">
+      <div class="row bg-footer">
+        <div class="footer-left col-xs-6">
+          <p>Want to get in touch?
+            <a href=mailto:jo_hannah@outlook.com>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.facebook.com/wings.crimsonhazel" target="_blank">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+          </p>
+        </div>
+        <div class="footer-right col-xs-6">
+          <p>
+            Built by Wings / Joke Heyndels. Photos copyrighted.</p>
+        </div>
+      </div>
+    </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Bad+Script:100,200,300,400,500,600,700|Indie+Flower:100,200,300,400,500,600,700|Princess+Sofia:100,200,300,400,500,600,700|Short+Stack:100,200,300,400,500,600,700");
+
+/* background colours */
+
+.bg-header {
+  background-image: url(../images/readingeverywhere.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  opacity: 0.8;
+  height: 33vh;
+}
+
+.bg-nav {
+  background-color: #4c7595;
+  margin: 0;
+}
+.bg-left {
+  background-color: #a8c4e7;
+  margin: 0;
+}
+
+.bg-middle {
+  background-color: #edeae7;
+  margin: 0;
+}
+
+.bg-right {
+  background-color: #a8c4e7;
+  margin: 0;
+}
+
+.bg-footer {
+  background-color: #4c7595;
+  margin: 0;
+  z-index: 10;
+  position: absolute;
+}
+
+.bg-body {
+  background-color: #4c7595;
+}
+
+.story {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*General*/
+
+html,
+body,
+.container-fluid,
+.row,
+.col-xs-12 {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Short Stack", cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bad Script";
+  padding: 5px;
+}
+.quote {
+  font-style: italic;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.row-table {
+  margin: 0;
+}
+
+.table-cell {
+  margin: 0;
+  padding: 15px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.intro {
+  border-radius: 20%;
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  -o-border-radius: 20%;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 10px 10px 20px;
+}
+
+/*Header*/
+.page-header {
+  color: #fff;
+  font-family: "Princess Sofia", cursive;
+}
+
+.page-header h1,
+.page-header h3 {
+  padding: 0 10px;
+  font-family: "Princess Sofia", cursive;
+}
+
+.navbar {
+  margin: 0;
+}
+.navbar-nav {
+  margin: 0;
+  width: 100%;
+}
+.navbar-nav li .youarehere {
+  background-color: #c1c1c1;
+  color: #4c7595;
+}
+
+.navbar-nav li a {
+  margin: 0;
+  color: #c1c1c1;
+  font-family: "Indie Flower", cursive;
+  font-weight: bold;
+}
+
+.navbar-nav li a:hover {
+  background-color: #5f8cb5;
+  color: #c1c1c1;
+}
+
+/*Left*/
+.left {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.left p {
+  text-align: left;
+}
+
+/*Middle*/
+.middle {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.middle p {
+  text-align: justify;
+}
+.middle .row .col-md-6 {
+  border-color: #4c7595;
+  border-width: 3px;
+  border-style: double;
+}
+
+.middle .row .col-xs-12 h2,
+.middle .row .col-xs-12 p,
+.middle .row .col-md-6 h3,
+.middle .row .col-md-6 h4,
+.middle .row .col-md-6 h5,
+.middle .row .col-md-6 p {
+  padding: 15px;
+}
+
+/*Right*/
+.right {
+  display: none;
+}
+.right p {
+  text-align: justify;
+}
+.form-control {
+  box-sizing: content-box;
+  padding: 0;
+}
+
+.suggestions-form {
+  width: 100%;
+}
+
+.right a i {
+  font-size: 100px;
+  text-align: right;
+  color: #c1c1c1;
+  background-color: #4c7595;
+  padding: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+/*Footer*/
+.footer-left,
+.footer-right {
+  margin: 0;
+  bottom: 0;
+  padding: 10px;
+  width:49vw;
+  box-sizing: border-box;
+  
+}
+
+.footer-left p {
+  text-align: left;
+  color: #c1c1c1;
+  font-family: "Indie Flower", cursive;
+  font-weight: bold;
+}
+
+.footer-left i {
+  color: #c1c1c1;
+  font-size: larger;
+}
+
+.footer-right p {
+  text-align: right;
+  color: #c1c1c1;
+  font-family: "Indie Flower", cursive;
+  font-weight: bold;
+}
+/*Images*/
+img {
+  width: 100%;
+}
+.cover-img {
+  display: none;
+}
+
+.choclov {
+  background-image: url(../images/chocolatelovers-front.jpg);
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: local;
+  z-index: 0;
+  padding: 0;
+}
+
+.hp {
+  background-image: url(../images/hp-front.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: local;
+  z-index: 0;
+  padding: 0;
+}
+
+.w2w {
+  background-image: url(../images/womantowoman-front.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: local;
+  z-index: 0;
+  padding: 0;
+}
+.littleshop {
+  background-image: url(../images/littleshop-front.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-attachment: local;
+  z-index: 0;
+  padding: 0;
+}
+.dragon {
+  background-image: url(../images/dragonstale-cover.jpg);
+  background-size: 100% 74vh;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: local;
+  z-index: 0;
+  padding: 0;
+}
+
+
+.elf-tree {
+  background-image: url(../images/elfandtree-cover.jpg);
+  background-size: 100% 74vh;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: local;
+  z-index: 0;
+  padding: 0;
+}
+
+#elf-tree-meet {
+  width: 60%;
+  float: right;
+  margin: auto 0;
+  padding: 5px;
+  border-radius: 20px ;
+  -webkit-border-radius: 20px ;
+  -moz-border-radius: 20px ;
+  -ms-border-radius: 20px ;
+  -o-border-radius: 20px ;
+}
+
+#elf-tree-attack,
+#elf-tree-dance {
+  width: 40%;
+  float: left;
+  padding: 5px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+#elf-tree-talking,
+#elf-tree-lastdance {
+  width: 40%;
+  float: right;
+  padding: 5px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.bluebronze {
+  background-image: url(../images/beyondblueandbronze.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-attachment: local;
+  z-index: 0;
+  padding: 0;
+}
+
+.content {
+  background-position: top;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: block;
+  width: 100%;
+  min-height: 400px;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+  margin: 0;
+  padding: 0;
+}
+.content a {
+  text-decoration: none;
+}
+
+.content:hover {
+  opacity: 1;
+}
+
+.btn-chapter {
+  float: left;
+  max-width: 35vw;
+  font-size: small;
+  text-align: left;
+}
+
+.btn-stories {
+  float: right;
+  max-width: 30vw;
+  font-size: small;
+}
+
+#note {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Bad Script";
+  font-weight: bold;
+  font-size: large;
+}
+/*Responsiveness*/
+@media screen and (min-width: 992px) {
+  .table-cell {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-bottom: 15px;
+  }
+  .middle .col-md-6 {
+    height: 75vh;
+  }
+  .content {
+    height: 70vh;
+    margin: 0;
+  }
+  .left,
+  .middle {
+    padding-bottom: 15px;
+  }
+  .intro {
+    width: 50%;
+    float: right;
+    padding: 0 20px 20px 20px;
+  }
+  .footer {
+    margin: 0;
+    bottom: 0;
+    height: 10vh;
+  }
+  .navbar-nav li {
+    width: 20%;
+    text-align: center;
+  }
+  .page-header {
+    height: 40vh;
+  }
+  .navbar {
+    margin: 0;
+    height: 5vh;
+  }
+  .page-header h1 {
+    font-size: 100px;
+  }
+
+  .page-header h3 {
+    font-size: 80px;
+  }
+
+  .dragonstale {
+    background-image: url(../images/dragonstale-cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: contain;
+    z-index: 0;
+    padding: 0;
+}
+}
+
+@media screen and (min-width: 1200px) {
+  .right {
+    display: table-cell;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+}
